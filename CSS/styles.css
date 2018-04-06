@@ -1,0 +1,73 @@
+html {
+    
+        background-image: url(../images/background.jpg);
+
+		
+		
+		
+		
+}
+body {
+
+    font-family: 'Lato', sans-serif;
+     color: black; 
+  
+  
+    width: 300px;
+    border-radius: 5px; 
+  text-decoration: none;
+
+  margin : auto;
+    opacity: 1;
+    transition: 1s opacity;
+    text-decoration: none;
+}
+
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+.1{
+font-family: 'lato, sans-serif';
+    color: #fff;
+    
+}
+body {
+  opacity: 1;
+  transition: 5s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
+}
+Origin {
+    width: 80pt;
+}
+.2 {
+    color: white;
+}
+
+footer {
+  color: white;
+    text-align: center;
+   
+}
+
+a:visited {
+    color: black;
+}
+
+iframe {
+    border: 5px solid black;
+    align-items: center;
+      
+
+}
+
+youtube {
+ margin-left: 10%;
+    margin-right: 10%;
+}
