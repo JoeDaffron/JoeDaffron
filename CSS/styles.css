@@ -9,18 +9,17 @@ html {
 }
 body {
 
-    font-family: 'Lato', sans-serif;
-     color: black; 
+  font-family: 'Lato', sans-serif;
+  color: black; 
   
   
-    width: 300px;
-    border-radius: 5px; 
+  border-radius: 5px; 
   text-decoration: none;
 
   margin : auto;
-    opacity: 1;
-    transition: 1s opacity;
-    text-decoration: none;
+  opacity: 1;
+  transition: 1s opacity;
+  text-decoration: none;
 }
 
 
@@ -29,11 +28,6 @@ body.fade-out {
     transition: none;
 }
 
-.1{
-font-family: 'lato, sans-serif';
-    color: #fff;
-    
-}
 body {
   opacity: 1;
   transition: 5s opacity;
@@ -45,9 +39,6 @@ body.fade {
 }
 Origin {
     width: 80pt;
-}
-.2 {
-    color: white;
 }
 
 footer {
@@ -62,12 +53,75 @@ a:visited {
 
 iframe {
     border: 5px solid black;
-    align-items: center;
-      
-
 }
 
-youtube {
- margin-left: 10%;
-    margin-right: 10%;
+.youtube-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#back {
+  text-align: center;
+}
+
+.container {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 40px;
+  min-width: 40px;
+}
+.two {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 40px;
+  min-width: 40px;
+}
+.three {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 40px;
+  min-width: 40px;
+}
+.four {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 40px;
+  min-width: 40px;
+}
+.five {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 40px;
+  min-width: 40px;
+}
+.six {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 40px;
+  min-width: 40px;
 }

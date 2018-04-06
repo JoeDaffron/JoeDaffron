@@ -13,22 +13,27 @@
   <script>
     document.body.className = 'fade';
   </script>
-    <center><header><h1>Joe Daffron</h1></header></center>
-    <div id="youtubelogo">
-    
-      <center><img src="images/youtube.png"></center>
-      <strong><center><h4>The First and Probably last video on my Channel</h4></center></strong>
-    </div>
-    <div class="youtube-container"></div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/1RugCx3KTU0"  frameborder="0" allow="autoplay; encrypted-media"  allowfullscreen ></iframe>
-    </div>
-    
-  <script>
-    document.addEventListener("DOMContentLoaded", function(e) {
-      document.body.className = '';
-    });
-  </script>
-	<div id="Back">
-        <a style="text-decoration: none;" href="index.html"><center><h2>Back To Home</h2></center></a>
+    <div class="media">
+      <header><h1>Joe Daffron</h1></header>
+      <div id="youtubelogo">
+      
+        <img src="images/youtube.png">
+        <strong><h4>The First and Probably last video on my Channel</h4></strong>
+      </div>
+      <div class="youtube-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1RugCx3KTU0"  frameborder="0" allow="autoplay; encrypted-media"  allowfullscreen ></iframe>
+      </div>
+      
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          document.body.className = '';
+        }, 1000)
+      });
+    </script>
+  </div>
+	<footer id="back">
+    <a style="text-decoration: none;" href="index.html"><h2>Back To Home</h2></a>
+  </footer>
       
 </body>
